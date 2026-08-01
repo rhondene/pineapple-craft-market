@@ -141,6 +141,30 @@ p{margin:0 0 1.1em}
 }
 @keyframes slide{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 
+/* ── Why visit ───────────────────────────────────────────────── */
+.whyvisit{background:var(--cobalt-deep);padding-block:clamp(2rem,4vw,2.75rem)}
+.whyvisit__grid{display:grid;grid-template-columns:repeat(3,1fr)}
+.why{padding-inline:clamp(1rem,3vw,2rem);border-right:1px solid rgba(255,255,255,.12)}
+.why:last-child{border-right:none}
+.why__n{
+  display:block;font-family:"DM Mono",monospace;font-size:0.78rem;letter-spacing:0.18em;
+  color:var(--trim);margin-bottom:0.6rem;
+}
+.why__h{
+  font-family:"Bricolage Grotesque",sans-serif;font-weight:800;color:var(--limewash);
+  font-size:1.25rem;margin-bottom:0.4rem;
+}
+.why__p{color:#c6d6e6;font-size:0.875rem;margin:0}
+@media (max-width:640px){
+  .whyvisit__grid{grid-template-columns:1fr}
+  .why{
+    border-right:none;border-bottom:1px solid rgba(255,255,255,.12);
+    padding-block:1.1rem;
+  }
+  .why:last-child{border-bottom:none}
+  .why__h{font-size:1.125rem}
+}
+
 /* ── Sections ────────────────────────────────────────────────── */
 .section{padding-block:clamp(3.5rem,8vw,6.5rem)}
 .section--paper{background:var(--limewash-2)}
