@@ -254,6 +254,9 @@ p{margin:0 0 1.1em}
 .note h3{color:#fff;margin-bottom:0.5rem;font-size:1.15rem}
 .note p{margin:0;font-size:0.98rem}
 
+.flag-mark{display:inline-block;height:1em;width:auto;vertical-align:middle}
+.flag-mark--sm{height:14px;margin-right:0.4em;vertical-align:-1px}
+
 /* ── Tour band ───────────────────────────────────────────────── */
 .band{background:var(--coral);color:#fff2ec;padding-block:clamp(3rem,6vw,4.5rem)}
 .band h2{color:#fff;max-width:18ch}
