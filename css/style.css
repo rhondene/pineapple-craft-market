@@ -101,7 +101,7 @@ p{margin:0 0 1.1em}
 /* ── Hero ────────────────────────────────────────────────────── */
 .hero{position:relative;background:var(--cobalt-deep);overflow:hidden}
 .hero__img{
-  width:100%;height:clamp(28rem,72vh,44rem);object-fit:cover;object-position:50% 62%;
+  width:100%;height:clamp(34rem,78vh,50rem);object-fit:cover;object-position:50% 62%;
   filter:saturate(1.08) contrast(1.04);
 }
 .hero__scrim{
@@ -253,7 +253,7 @@ p{margin:0 0 1.1em}
 .facts li{display:flex;gap:1rem;padding:0.85rem 0;border-bottom:1px solid rgba(23,20,15,.2)}
 .facts dt,.facts b{font-family:"DM Mono",monospace;font-size:0.72rem;letter-spacing:0.14em;
   text-transform:uppercase;color:var(--ink-soft);flex:0 0 8rem;padding-top:0.2rem}
-.facts__address{font-size:1.2rem;font-weight:700;line-height:1.3}
+.facts__address{font-size:1.1rem;font-weight:700;line-height:1.35}
 .map{width:100%;aspect-ratio:4/3;border:0;background:var(--limewash-2)}
 .note{background:var(--sea);color:#eafaf6;padding:1.4rem 1.5rem;border-left:6px solid var(--trim)}
 .note h3{color:#fff;margin-bottom:0.5rem;font-size:1.15rem}
@@ -261,6 +261,7 @@ p{margin:0 0 1.1em}
 
 .flag-mark{display:inline-block;height:1em;width:auto;vertical-align:middle}
 .flag-mark--sm{height:14px;margin-right:0.4em;vertical-align:-1px}
+.hero__flag{height:clamp(1.4rem,3.4vw,2.5rem);margin-inline:0.25em;vertical-align:middle}
 
 /* ── Tour band ───────────────────────────────────────────────── */
 .band{background:var(--coral);color:#fff2ec;padding-block:clamp(3rem,6vw,4.5rem)}
